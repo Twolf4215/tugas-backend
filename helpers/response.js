@@ -8,7 +8,6 @@ class _response {
 
                 res.send(data)
                 return true
-
             }
 
             res.status(data && data.status ? 200 : 500)
